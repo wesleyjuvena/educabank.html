@@ -3,20 +3,20 @@
     padding: 0;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-}
 
+ }
 body{
     height: 100vh;
-    width: 100vw;
+    width: 100vw; 
 }
 
 header{
-    background-color: black;
+    background-color: rgb(43, 133, 175);
     padding: 10vh;
 }
 
 .menu-header{
-    color: rgb(16, 197, 91);
+    color: beige;
     justify-content: end;
     display: flex;
     flex-wrap: wrap;
@@ -25,13 +25,13 @@ header{
 }
 
 .menu-header li a{
-color: brown;
+color: #dae7e9;
 text-decoration: none;
 font-size: 13px;
 }
 
 .menu-header li a:hover{
-    color: aqua;
+    color: rgb(228, 11, 83);
     transition: 0.8s;
 }
 
@@ -42,72 +42,87 @@ font-size: 13px;
 
 #sessao{
     padding: 30vh;
-    background: linear-gradient(180deg, #9d0000);
+    background: linear-gradient(180deg, #dae7e9 8.33%, #1ab6e6);
     flex-wrap: wrap;
 }
 
 #sessao h1{
-    font-size: 42px;
+    font-size: 2.5em;
     color: rgb(2, 2, 21);
 }
 
 #sessao p{
-    font-size: 40px;
+    font-size: 2.3em;
+    margin: 20px 0;
 }
 
 #sessao button{
     padding: 20px;
     border-radius: 50px;
-    width: 20vw;
-    color: chocolate;
-    border-color: blueviolet;
+    width: 20em;
+    color: rgb(30, 168, 210);
+    border-color: rgb(102, 209, 228);
     margin: 30px;
     font-size: 15px;
+    cursor: pointer;
 
+}
+
+#sessao button a{
+    text-decoration: none;
+    color: rgb(193, 192, 212);
 }
 
 #sessao button:hover{
     background-color: #9d0000;
-    color: blue;
+    color: rgb(82, 114, 202);
     border-color: aqua;
     transition: 0.5s;
 }
 
 
 #app{
-    padding: 30vh;
+    padding: 15rem;
     background-color: rgb(32, 213, 192);
     display: flex;
     justify-content: space-around;
+    
 }
 
 #app div button{
     padding: 20px;
     border-radius: 50px;
     width: 20vw;
-    color: rgb(190, 13, 161);
-    border-color: chartreuse;
+    color: rgb(43, 231, 231);
+    border-color: rgb(235, 12, 205);
     margin: 30px;
     font-size: 15px;
+    cursor: pointer;
 
+}
+
+#app button a{
+    text-decoration: none;
+    color: rgb(20, 212, 171);
 }
 
 #app div p{
-    font-size: 43px;
+    font-size: 2.8em;
+    margin-bottom: 20px;
 }
 
 #app div button:hover{
-    background-color: darkgray;
+    background-color: rgb(189, 62, 140);
     color: blue;
     border-color: darkgoldenrod;
     transition: 0.5s;
 }
 
 #app div img{
-    width: 30vw;
-    height: 60vh;
+    width: 25rem;
+    height: 25rem;
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: -70px;
 }
 
 #container{
