@@ -76,14 +76,14 @@ font-size: 13px;
 #sessao button:hover{
     background-color: #9d0000;
     color: rgb(82, 114, 202);
-    border-color: aqua;
+    border-color: rgb(238, 241, 241);
     transition: 0.5s;
 }
 
 
 #app{
     padding: 15rem;
-    background-color: rgb(32, 213, 192);
+    background-color: rgb(248, 252, 251);
     display: flex;
     justify-content: space-around;
     
@@ -121,55 +121,57 @@ font-size: 13px;
 #app div img{
     width: 25rem;
     height: 25rem;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: -70px;
 }
 
 #container{
     padding: 30vh;
-    background-color: blue;
+    background-color: rgb(244, 244, 252);
     flex-wrap: wrap;
 }
 
 #container h2{
     font-size: 40px;
-    margin-top: 20rem;
-    color: darkslategrey;
+    margin-top: -20rem;
+    color: rgb(5, 5, 5);
     text-align: center;
+    margin-bottom: 2rem;
 
 }
 
 #container p{
     font-size: 20px;
     margin-top: 30px;
-    color: black;
+    color: rgb(34, 36, 38);
     text-align: justify;
 }
 
 #container .text1{
     text-align: center;
+    
 }
 
 #container button{
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
-    width: 15vw;
-    color: blueviolet;
+    width: 10vw;
+    color: rgb(48, 41, 45);
     border-color: black;
     margin: 60px;
     font-size: 15px;
 }
 
 #container button:hover{
-    background-color: darkgoldenrod;
-    color: darkslategrey;
+    background-color: rgb(9, 28, 197);
+    color: rgb(12, 228, 48);
     border-color: #9d0000;
     transition: 0.7s;
     cursor: pointer;
 }
 
-#line{
-    margin: 0 auto;
+.line{
+    margin: 40 auto;
     width: 70%;
 }
 
@@ -179,6 +181,9 @@ font-size: 13px;
     width: 50vw;
 }
 
+#container-cofre{
+    background: linear-gradient(180deg, #0c2ce4 8.33%,) rgba(5, 39, 101, 0.745)100%, url(./imagens/img\ cofre\ fundo.jpg);
+}
 
 
 
