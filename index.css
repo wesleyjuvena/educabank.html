@@ -31,7 +31,7 @@ font-size: 13px;
 }
 
 .menu-header li a:hover{
-    color: rgb(228, 11, 83);
+    color: #bf0a0d;
     transition: 0.8s;
 }
 
@@ -77,7 +77,7 @@ font-size: 13px;
     background-color: #9d0000;
     color: rgb(82, 114, 202);
     border-color: rgb(238, 241, 241);
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 
@@ -182,8 +182,79 @@ font-size: 13px;
 }
 
 #container-cofre{
-    background: linear-gradient(180deg, #0c2ce4 8.33%,) rgba(5, 39, 101, 0.745)100%, url(./imagens/img\ cofre\ fundo.jpg);
+    background: linear-gradient(180deg, #0c2ce4 8.33%, rgba(5, 39, 101, 0.745)100%),url(imagens/img\ cofre\ fundo.jpg);
+
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15rem;
+} 
+
+#container-cofre img{
+    width: 25rem;
+    height: auto;
+    margin-top: 10rem;
 }
+
+#container-cofre h2{
+    color: #faf9f9;
+    font-size: 25px;
+    text-align: center;
+}
+
+#container-cofre p{
+    color: aliceblue;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+footer{
+    padding: 3rem;
+    background-color: #504e4e;
+    text-align: center;
+    color: #dae7e9;
+}
+
+
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #dae7e9;
+
+
+}
+
+footer div a{
+    text-decoration: none;
+    color: beige;
+    
+
+    
+}
+
+footer div a:hover{
+    transition: 0,8s;
+    color: #0c2ce4;
+}
+
+.footer-div p{
+    color: rgb(229, 240, 240);
+    padding: 50px;
+
+    
+
+    
+}
+
+
+
+
 
 
 
