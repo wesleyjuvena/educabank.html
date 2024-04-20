@@ -253,6 +253,84 @@ footer div a:hover{
 }
 
 
+@media screen and(max-width:480) {
+    
+}
+
+@media screen and(max-width:767) {
+
+}
+
+@media screen and(max-width:1920) {
+
+}
+
+@media screen and(max-width:1366px) {
+
+}
+
+@media screen and(max-width:991px) {
+
+
+
+
+ #sessao div a button{
+        width: 14rem;
+        padding: 0.9rem;
+ }
+
+
+
+
+ #sessao a button {
+    width: 14rem;
+    padding: 0.9rem;
+
+   
+}
+
+#sessao p{
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+
+#app{
+padding: 30vh;
+
+}
+
+#app div p{
+    font-size: 1.8rem;
+}
+
+#app div img{
+width: 18rem;
+height: auto;
+margin-right: 20px;
+
+}
+
+#container{
+    padding: 35vh;
+}
+
+#container h2{ 
+    margin-top: 1rem;
+}
+
+#container a button{
+    width: 14rem;
+    padding: 0.9rem;
+    margin-left: 12rem;
+    
+}
+
+
+
+}
+
+
 
 
 
